@@ -1,10 +1,10 @@
  import React from 'react';
 import { Container, Row, Col, Card, Badge, Button } from 'react-bootstrap';
 import { FaGithub, FaExternalLinkAlt, FaCode, FaJava } from 'react-icons/fa';
-import RPSImg from 'src/assets/Game.png';
-import JavaImg from 'src/assets/Java.png'
-import JGImg from 'src/assets/JGuni.png';
-import PortfolioImg from 'src/assets/Portfolio.png';
+import RPSImg from '../assets/Game.png';
+import JavaImg from '../assets/Java.png'
+import JGImg from '../assets/JGuni.png';
+import PortfolioImg from '../assets/Portfolio.png';
 
 const projectsData = [
   {

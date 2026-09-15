@@ -1,7 +1,7 @@
 import React from "react";
 import {Container , Row ,Col ,Button} from 'react-bootstrap';
 import {FaUser ,  FaFileDownload } from 'react-icons/fa';
-import sumit1 from 'src/assets/sumit1.jpg';
+import sumit1 from '../assets/sumit1.jpg';
 
 const About = () =>{
     return(

@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import { Container, Row, Col, Form, Button, Alert } from 'react-bootstrap';
 import { FaPaperPlane, FaEnvelope, FaMapMarkerAlt, FaUser, FaPhoneAlt, FaHeadset } from 'react-icons/fa';
 import emailjs from '@emailjs/browser';
-import ContactImg from 'src/assets/contact.png';
+import ContactImg from '../assets/contact.png';
 
 const Contact = () => {
   const form = useRef();
