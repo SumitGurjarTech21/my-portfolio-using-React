@@ -1,16 +1,83 @@
-# React + Vite
+# 🚀 Developer Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A dynamic, fully responsive, and modern developer portfolio website built using **React.js**, **React-Bootstrap**, and **EmailJS**. Designed to showcase projects, technical skillsets, and provide a direct contact channel for freelance or employment opportunities.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌟 Key Features
 
-## React Compiler
+* **⚡ Interactive UI:** Smooth scrolling, clean layout, and modern UI components built with React-Bootstrap.
+* **📬 Direct Emailing System:** Integrated with EmailJS to receive contact messages directly into Gmail without a backend server.
+* **🔄 Infinite Marquee Ticker:** Custom CSS keyframes-driven sticky footer ticker continuously highlighting core roles (Full Stack, Java, React Developer).
+* **📱 Fully Responsive Design:** Optimized for seamless performance across desktop, tablet, and mobile displays.
+* **🎯 Real-Time Form Feedback:** Dynamic alert feedback for loading, success, and error states on form submissions.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🛠️ Tech Stack & Libraries
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+* **Frontend:** React.js, JavaScript (ES6+)
+* **Styling & Components:** Bootstrap 5, React-Bootstrap, Custom CSS Animations
+* **Icons:** React Icons (`react-icons/fa`)
+* **Email Service:** EmailJS (`@emailjs/browser`)
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+ ├── assets/          # Project images and graphics
+ ├── components/      # Reusable UI components (Contact, FooterMarquee, etc.)
+ ├── App.jsx          # Main application layout component
+ ├── main.jsx         # Application entry point
+ └── index.css        # Global styles and custom keyframe animations
+
+```
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally:
+
+### 1. Prerequisites
+
+Make sure you have Node.js installed on your machine.
+
+### 2. Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+cd YOUR_REPOSITORY_NAME
+
+```
+
+Install dependencies:
+
+```bash
+npm install
+
+```
+
+### 3. Run Development Server
+
+```bash
+npm run dev
+
+```
+
+Open `http://localhost:5173` in your browser to view the project.
+
+---
+
+## 📩 EmailJS Configuration
+
+To configure the contact form for your own email ID:
+
+1. Create an account on [EmailJS](https://www.emailjs.com/?utm_source=gemini).
+2. Create an **Email Service** (e.g., Gmail).
+3. Create an **Email Template** with variables: `{{user_name}}`, `{{user_email}}`, `{{phone}}`, and `{{message}}`.
+4. Update your `Service ID`, `Template ID`, and `Public Key` in `src/components/Contact.jsx`.
