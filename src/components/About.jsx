@@ -1,6 +1,7 @@
 import React from "react";
 import {Container , Row ,Col ,Button} from 'react-bootstrap';
 import {FaUser ,  FaFileDownload } from 'react-icons/fa';
+import sumit1 from 'src/assets/sumit1.jpg';
 
 const About = () =>{
     return(
@@ -17,7 +18,7 @@ const About = () =>{
                     <Col lg={4} md={12} className="text-center">
                     <div className="about-img-box">
                         <img 
-                        src="src/assets/sumit1.jpg"
+                        src={sumit1}
                         alt="SumitGurjar"
                         className="img-fluid rounded-5 about-img"/>
                         </div></Col>
