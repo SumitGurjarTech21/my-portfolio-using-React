@@ -1,13 +1,17 @@
  import React from 'react';
 import { Container, Row, Col, Card, Badge, Button } from 'react-bootstrap';
 import { FaGithub, FaExternalLinkAlt, FaCode, FaJava } from 'react-icons/fa';
+import RPSImg from 'src/assets/Game.png';
+import JavaImg from 'src/assets/Java.png'
+import JGImg from 'src/assets/JGuni.png';
+import PortfolioImg from 'src/assets/Portfolio.png';
 
 const projectsData = [
   {
     id: 1,
     title: 'JGuni Website Redesign',
     description: 'A modern redesign focused on clean UI/UX, responsive layouts, and smooth navigation.',
-    image: 'src/assets/JGuni.png',
+    image: {JGImg},
     techStack: ['React.js', 'Bootstrap', 'CSS3'],
     github:'https://github.com/SumitGurjarTech21/jguni-redesign',
     demo: 'https://jguni-redesign-sigma.vercel.app/'
@@ -17,7 +21,7 @@ const projectsData = [
     id: 2,
     title: 'Personal Portfolio',
     description: 'Modern portfolio with dark mode toggle, typewriter effect, and interactive animated cards.',
-    image:  'src/assets/Portfolio.png',
+    image:  {PortfolioImg},
     techStack: ['React.js', 'Typewriter', 'CSS3'],
     github: 'https://github.com/SumitGurjarTech21/SG-Portfolio',
     demo: 'https://sg-portfolio-beryl.vercel.app/'
@@ -26,7 +30,7 @@ const projectsData = [
     id: 3,
     title: 'Web Games (Tic-Tac-Toe & RPS)',
     description: 'Interactive browser games with clean move tracking logic and dynamic scoreboards.',
-    image: 'src/assets/Game.png',
+    image: {RPSImg},
     techStack: ['JavaScript', 'HTML5', 'CSS3'],
     github: 'https://github.com/SumitGurjarTech21/JavaScript-project',
     demo: 'https://java-script-project-omega.vercel.app/'
@@ -36,7 +40,7 @@ const projectsData = [
   id: 4,
   title: 'Java Console-Based Utilities',
   description: 'Collection of core Java applications including Smart Calculator, Income Tax Calculator, BMI Calculator, and Electricity Bill Calculator using OOPs logic.',
-  image: 'src/assets/Java.png',
+  image: {JavaImg},
   techStack: ['Java', 'OOPs', 'Scanner CLI', 'Control Flow'],
   github: 'https://github.com/SumitGurjarTech21/Java-MiniProjects',
   demo: null

@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import { Container, Row, Col, Form, Button, Alert } from 'react-bootstrap';
 import { FaPaperPlane, FaEnvelope, FaMapMarkerAlt, FaUser, FaPhoneAlt, FaHeadset } from 'react-icons/fa';
 import emailjs from '@emailjs/browser';
+import ContactImg from 'src/assets/contact.png';
 
 const Contact = () => {
   const form = useRef();
@@ -48,7 +49,7 @@ const Contact = () => {
               <div className="contact-left-content text-center text-lg-start pe-lg-3">
                 <div className="contact-illustration mb-4 d-none d-lg-block">
                   <img 
-                    src="src/assets/contact.png" 
+                    src={ContactImg}
                     alt="Contact Illustration" 
                     className="img-fluid rounded-4 shadow-sx"
                     style={{ maxHeight: '240px', width: '100%', objectFit: 'cover' }}
