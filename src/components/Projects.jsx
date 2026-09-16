@@ -23,8 +23,8 @@ const projectsData = [
     description: 'Modern portfolio with dark mode toggle, typewriter effect, and interactive animated cards.',
     image:  PortfolioImg,
     techStack: ['React.js', 'Typewriter', 'CSS3'],
-    github: 'https://github.com/SumitGurjarTech21/SG-Portfolio',
-    demo: 'https://sg-portfolio-beryl.vercel.app/'
+    github: 'https://github.com/SumitGurjarTech21/my-portfolio-using-React',
+    demo: 'https://my-portfolio-using-react-gd7t.vercel.app/'
   },
   {
     id: 3,
