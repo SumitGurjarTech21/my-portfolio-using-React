@@ -52,7 +52,7 @@ const Contact = () => {
                     src={ContactImg}
                     alt="Contact Illustration" 
                     className="img-fluid rounded-4 shadow-sx"
-                    style={{ maxHeight: '240px', width: '100%', objectFit: 'cover' }}
+                    style={{ maxHeight: '340px', width: '100%', objectFit: 'cover' }}
                   />
                 </div>
                 <h4 className="fw-bold mb-2">Feel Free to Contact Me!</h4>

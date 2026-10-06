@@ -192,6 +192,8 @@ body.dark-mode .project-card:hover {
 .contact-illustration:hover{
    transform: scale(1.02);
 }
+
+
 /* Infinite Marquee Animation Container */
 .marquee-track {
   width: max-content;
